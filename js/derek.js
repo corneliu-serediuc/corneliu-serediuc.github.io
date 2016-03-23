@@ -11,6 +11,9 @@ $(document).ready(function(){
     
     }, 1000);
 
+	 var $ad = $('.twinfog-ad');
+	 var $video = $('.twinfog-video');
+	 $video.height($ad.height() + 30);
 });
 
 
