@@ -1,0 +1,85 @@
+/*
+** your custom styling goes here
+*/
+
+@font-face {
+    font-family: 'bauhaus-light';
+    src:url('../font/03957_BauhausLightBT.eot?-4g15u5');
+    src:url('../font/03957_BauhausLightBT.eot?#iefix-4g15u5') format('embedded-opentype'),
+    url('../font/03957_BauhausLightBT.woff') format('woff'),
+    url('../font/03957_BauhausLightBT.ttf') format('truetype'),
+    url('../font/03957_BauhausLightBT.svg?-4g15u5#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bauhaus-medium';
+    src:url('../font/03958_BauhausMediumBT.eot?-4g15u5');
+    src:url('../font/03958_BauhausMediumBT.eot?#iefix-4g15u5') format('embedded-opentype'),
+    url('../font/03958_BauhausMediumBT.woff') format('woff'),
+    url('../font/03958_BauhausMediumBT.ttf') format('truetype'),
+    url('../font/03958_BauhausMediumBT.svg?-4g15u5#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.epiviz {
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /*font-size: 1.25em;*/
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.epiviz:before {
+    font-family: 'bauhaus-medium';
+    content: "Epi";
+}
+
+.epiviz:after {
+    font-family: 'bauhaus-light';
+    content: "viz";
+}
+
+.umd-logo {
+    font-family: Georgia;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.umd-logo span {
+    font-size: 17px;
+    margin-left: 80px;
+}
+
+.mit-logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #993333;
+    line-height: 110%;
+    margin-left: 10px!important;
+}
+
+
+.my-publication {
+    font-size: 11px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.my-publication .me-author {
+    font-weight: bold;
+}
+
+.my-publication .journal {
+    font-style: italic;
+}
